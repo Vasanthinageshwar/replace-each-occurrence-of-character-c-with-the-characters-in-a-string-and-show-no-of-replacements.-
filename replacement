@@ -1,0 +1,6 @@
+#!/bin/bash
+
+read -p "Enter a STRING : " s
+read -p "Enter a CHARACTER : " c
+read -p "Enter another STRING : " s1
+echo $s | sed "s/[$c]/$s1/g"
